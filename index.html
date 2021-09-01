@@ -2,7 +2,14 @@
 
 <!--
     Leah Tran
-    Last Updated: 8/23/2020
+    Last Updated: 8/4/2021
+-->
+
+<!--
+    Fixes to do:
+    [x] Figure out what to do w/ aria attributes (research needed)
+    [x] Fix color contrast issues -- Edit the color palette, esp. for menu links, button links
+    [x] Make sure all images have an alt attribute -- logo image, photo of me
 -->
 
 <html lang="en">
@@ -17,10 +24,10 @@
     </head>
     <body>        
         <!-- Navigation -->
-        <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+        <nav class="navbar navbar-expand-md navbar-light sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Leah Tran <img src="img/bunny-on-star.png"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <a class="navbar-brand" href="index.html">Leah Tran <img src="img/bunny-on-star.png" alt="Drawing of a white bunny hanging on a purple star."></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-label="menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -53,7 +60,7 @@
         <div class="container-fluid padding">
         <div class="row padding content">
             <div class="col-md-6">
-                <img src="img/IMG_8226.JPG" class="img-fluid">
+                <img src="img/IMG_8226.JPG" class="img-fluid" alt="Leah, an Asian girl with medium length black hair and glasses, smiling in front of a lake.">
             </div>
             <div class="col-md-6">
                 <h2>Learn about me</h2>
@@ -75,7 +82,7 @@
         <div class="container-fluid padding">
         <div class="row text-center">
             <div class="col-12">
-                <img src="img/bunny-on-star.png">
+                <img src="img/bunny-on-star.png"  alt="Drawing of a white bunny hanging on a purple star.">
                 <p>Portions of the website &copy; 2020 Leah Tran</p>
                 <p>Other attributions cited in page source</p>
             </div>

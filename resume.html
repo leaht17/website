@@ -5,6 +5,11 @@
     Last Updated: 8/23/2020
 -->
 
+<!-- 
+    [x] Images need alt text
+    [ ] Download resume button is not focusable by screen reader (b/c it's nested)
+ -->
+
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -17,10 +22,10 @@
     </head>
     <body>
         <!-- Navigation -->
-        <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+        <nav class="navbar navbar-expand-md navbar-light sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Leah Tran <img src="img/bunny-on-star.png"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <a class="navbar-brand" href="index.html">Leah Tran <img src="img/bunny-on-star.png" alt="Drawing of a white bunny hanging on a purple star."></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-label="menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -133,7 +138,7 @@
                 </ul>
             </div>
             <div class="col-md-6">
-                <img src="img/IMG_2610.jpg" class="img-fluid">
+                <img src="img/IMG_2610.jpg" class="img-fluid" alt="Leah sitting in front of a large 'W' sign.">
             </div>
         </div>
         </div>
@@ -152,7 +157,7 @@
         <div class="row padding content">
             <div class="col-md-4">
                 <div class="card">
-                    <img class="card-img-top" src="img/stars-logo190x.gif">
+                    <img class="card-img-top" src="img/stars-logo190x.gif" aria-label="STARS logo">
                     <div class="card-body">
                         <h4 class="card-title">STARS Program</h4>
                         <h6 class="card-subtitle">Cohort 5 | Member, Student Assistant</h6>
@@ -163,7 +168,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img class="card-img-top" src="img/girls-who-code-logo.png">
+                    <img class="card-img-top" src="img/girls-who-code-logo.png" aria-label="Girls Who Code logo">
                     <div class="card-body">
                         <h4 class="card-title">Girls Who Code</h4>
                         <h6 class="card-subtitle">Summer Program | Participant</h6>
@@ -176,7 +181,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img class="card-img-top" src="img/rewriting-the-code-logo.webp">
+                    <img class="card-img-top" src="img/rewriting-the-code-logo.webp" aria-label="Rewriting the Code logo">
                     <div class="card-body">
                         <h4 class="card-title">Rewriting the Code</h4>
                         <h6 class="card-subtitle">Fellowship Program</h6>
@@ -193,7 +198,7 @@
         <div class="container-fluid padding">
         <div class="row text-center">
             <div class="col-12">
-                <img src="img/bunny-on-star.png">
+                <img src="img/bunny-on-star.png" alt="Drawing of a white bunny hanging on a purple star.">
                 <p>Portions of the website &copy; 2020 Leah Tran</p>
                 <p>Other attributions cited in page source</p>
             </div>

@@ -10,8 +10,7 @@ html, body {
 
 .navbar {
     padding: .8rem;
-/*    background-color: #3f3f3f;*/
-    background-color: #475761;
+    background-color: white;
 }
 
 .navbar-brand {
@@ -27,8 +26,8 @@ html, body {
 }
 
 .btn-primary {
-    background-color: #8986B6;
-    border: 1px solid #8986B6;
+    background-color: #525289;
+    border: 1px solid #525289;
     margin-bottom: 2rem;
 }
 
@@ -62,7 +61,7 @@ html, body {
 }
 
 .welcome a {
-    color: #8986B6;
+    color: #525289;
     text-decoration: underline;
 }
 
@@ -126,9 +125,7 @@ html, body {
 }
 
 footer {
-/*    background-color: #3f3f3f;*/
-    color: #d5d5d5;
-    background-color: #475761;
+   background-color: white;
     padding-top: 1rem;
 }
 
